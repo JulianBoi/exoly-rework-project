@@ -1,4 +1,4 @@
-##"Exoly Rework Project"
+###"Exoly Rework Project"
 
 Dans le cadre de la reprise d'un projet préalablement abandonné, je m'attache à y apporter un développement substantiel en vue de le faire progresser de manière significative. 
 
