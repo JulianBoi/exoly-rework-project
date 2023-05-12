@@ -11,9 +11,12 @@ public class MoveCamera3rdPerson : MonoBehaviour
 
     float mouseX, mouseY; // Stocker les mouvements de la souris
 
+    public Animator animator;
+
     void Start()
     {
         Cursor.visible = false;
+        animator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -22,6 +25,8 @@ public class MoveCamera3rdPerson : MonoBehaviour
         mouseX += Input.GetAxis("Mouse X") * rotateSpeed;
         mouseY -= Input.GetAxis("Mouse Y") * rotateSpeed;
         mouseY = Mathf.Clamp(mouseY, -35f, 60f);
+
+
 
         // Calculer la rotation de la caméra en fonction des mouvements de la souris
         Quaternion rotation = Quaternion.Euler(mouseY, mouseX, 0);

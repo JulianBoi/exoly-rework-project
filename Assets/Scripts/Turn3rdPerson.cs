@@ -14,10 +14,14 @@ public class Turn3rdPerson : MonoBehaviour
         cameraDirection.y = 0f;
         cameraDirection = cameraDirection.normalized;
 
+
+
         // Calcule la rotation à appliquer au personnage
         Quaternion targetRotation = Quaternion.LookRotation(cameraDirection);
 
         // Applique la rotation au personnage avec une interpolation douce
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
+
+
     }
 }
