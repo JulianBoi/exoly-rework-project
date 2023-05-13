@@ -12,4 +12,7 @@ Dans ce tableau, on peut retrouver les informations suivantes :
 
 | Version | Date de création | Date de modification | Description       | Auteur   |
 | ---     | ---              | ---                  | ---               |  ---     | 
-| v0.0.1  | 11/05/2023       | N/A                  | Version initiale  | Julian.B |
+| v0.0.0  | 11/05/2023       | N/A                  | Version initiale  | Julian.B |
+| v0.0.1  | 12/05/2023       | N/A                  | Create Spawn      | Julian.B |
+| v0.0.2  | 13/05/2023       | N/A                  | Move Character    | Julian.B |
+| v0.0.3  | 14/05/2023       | N/A                  | Fix Animation     | Julian.B |

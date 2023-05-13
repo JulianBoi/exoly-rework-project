@@ -49,7 +49,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 078f3c46a176fd643a5029da19e80e82, type: 3}
+  m_Motion: {fileID: 4061839508520268033, guid: 078f3c46a176fd643a5029da19e80e82, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: WalkForward
@@ -297,7 +297,7 @@ AnimatorStateTransition:
   m_ExitTime: 0.7413793
   m_HasExitTime: 0
   m_HasFixedDuration: 1
-  m_InterruptionSource: 3
+  m_InterruptionSource: 1
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1102 &2937949085792869386
